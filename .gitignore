@@ -1,0 +1,39 @@
+# .gitignore for Command_Directory_App
+# Ignore build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# Ignore Docker local files
+**/.docker/
+
+# Ignore local secrets
+secrets.json
+
+# Ignore publish outputs
+publish/
+
+# Ignore test results
+TestResults/
+
+# Ignore NuGet packages
+*.nupkg
+packages/
