@@ -10,7 +10,7 @@ namespace CommandsService.Profiles
         public CommandsProfile()
         {
             // Source -> Target
-            CreateMap<Platform, PlatformreadDto>();
+            CreateMap<Platform, PlatformReadDto>();
             CreateMap<CommandCreateDto, Command>();
             CreateMap<Command, CommandReadDto>();            
         }
